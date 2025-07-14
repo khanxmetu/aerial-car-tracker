@@ -1,0 +1,13 @@
+%YAML:1.0
+BaseConfig:
+  minDetectorConfidence: 0.25
+  minTrackerConfidence: 0.5
+TargetManagement:
+  maxTargetsPerStream: 150
+  probationAge: 3
+  maxShadowTrackingAge: 15
+VisualTracker:
+  visualTrackerType: 1
+  useColorNames: 1
+  useHog: 0
+  featureImgSizeLevel: 2
